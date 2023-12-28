@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "toast",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/yagodemartin/toast",
+      "state" : {
+        "branch" : "main",
+        "revision" : "8b565983824c571111350ab3da93dfa32141d723"
+      }
+    }
+  ],
+  "version" : 2
+}

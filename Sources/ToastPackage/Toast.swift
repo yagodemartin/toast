@@ -33,7 +33,7 @@ fileprivate class PWindow: UIWindow {
 }
 
 
-class Toast {
+public class Toast {
     static let shared = Toast()
     fileprivate var toasts: [ToastItem] = []
     
