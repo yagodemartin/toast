@@ -34,7 +34,7 @@ fileprivate class PWindow: UIWindow {
 
 
 public class Toast {
-    static let shared = Toast()
+  public  static let shared = Toast()
     fileprivate var toasts: [ToastItem] = []
     
     func present(title: String, symbol: String?, tint: Color = .primary,background: Color = .primary ,  isUserInteractionEnabled: Bool = false, timing: ToastTime = .medium) {
